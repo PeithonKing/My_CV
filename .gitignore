@@ -1,0 +1,16 @@
+*
+!.gitignore
+!*.tex
+!*.jpg
+!*.pdf
+!*.jpeg
+!*.png
+!*.txt
+!*.bib
+!*.txt
+!*.cls
+!*.md
+!*.py
+!AltaCV Template.zip
+
+!*/
