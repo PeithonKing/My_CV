@@ -21,61 +21,10 @@
 \begin{paracol}{2}
 
     \input{left_sections/about.tex}
-    
-    \cvsection{Experience}
-
-        \cvevent{Job Title 1}{Company 1}{Month 20XX -- Ongoing}{Location}
-        \begin{itemize}
-            \item Job description 1
-            \item Job description 2
-        \end{itemize}
-
-        \divider
-
-        \cvevent{Job Title 2}{Company 2}{Month 20XX -- Ongoing}{Location}
-        \begin{itemize}
-            \item Job description 1
-            \item Job description 2
-        \end{itemize}
-
-    \cvsection{Projects}
-
-        \cvevent{Project 1}{Funding agency/institution}{}{}
-        \begin{itemize}
-            \item Details
-        \end{itemize}
-
-        \divider
-
-        \cvevent{Project 2}{Funding agency/institution}{Project duration}{}
-        A short abstract would also work.
-
-        \medskip
-
+    \input{left_sections/outside.tex}
     % \input{left_sections/day_of_life.tex}
-
     \newpage
-
-    \cvsection{Publications}
-
-		%% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list. 
-		%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
-		%% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors. 
-		\mynames{Lim/Lian\bibnamedelima Tze,
-			Wong/Lian\bibnamedelima Tze,
-			Lim/Tracy,
-			Lim/L.\bibnamedelimi T.}
-		%% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
-
-		\nocite{*}
-		\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
-		\divider
-		\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
-		\divider
-		\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
-
-    %% Switch to the right column. This will now automatically move to the second
-    %% page if the content is too long.
+    % \input{left_sections/publication.tex}
     \switchcolumn
 
     \cvsection{My Life Philosophy}
