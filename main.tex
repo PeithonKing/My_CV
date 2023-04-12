@@ -1,0 +1,50 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\input{settings.tex}
+\input{pubs-num.tex}
+\addbibresource{sample.bib}
+
+\begin{document}
+	\name{Aritra Mukhopadhyay}
+	\tagline{Student, School of Physical Sciences (SPS), NISER}
+	\photoR{2.8cm}{images/aritra.png}  % Use photoL to put the photo on the left
+
+	\personalinfo{%
+		\email{aritra.mukhopadhyay@niser.ac.in}
+		\phone{+91 6290887099}
+		\mailaddress{Room 319, Bhagirathi Hostel, NISER}
+		\location{Bhubaneshwar, INDIA}
+		\linkedin{aritra-mukhopadhyay-88ab9b213}
+		\github{PeithonKing}
+	}
+
+	\makecvheader
+	\begin{paracol}{2}
+		\input{left_sections/about.tex}
+		\input{left_sections/outside.tex}
+		% \input{left_sections/day_of_life.tex}
+		\newpage
+		% \input{left_sections/publication.tex}
+	\switchcolumn
+		
+		\input{right_sections/quote.tex}
+		\input{right_sections/proud.tex}
+		\input{right_sections/strengths.tex}
+		\input{right_sections/languages.tex}
+		\input{right_sections/education.tex}
+
+		\cvsection{Referees}
+
+		% \cvref{name}{email}{mailing address}
+		\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
+		{Address Line 1\\Address line 2}
+
+		\divider
+
+		\cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
+		{Address Line 1\\Address line 2}
+
+
+	\end{paracol}
+
+
+\end{document}
