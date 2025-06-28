@@ -1,0 +1,106 @@
+contacts:
+  name: ARITRA MUKHOPADHYAY
+  title: Machine Learning Scientist
+  email: amukherjeeniser@gmail.com
+  address: "Kolkata, India"
+  location: India
+  linkedin:
+    url: https://www.linkedin.com/in/PeithonKing/
+    displayText: linkedin:PeithonKing
+  github:
+    url: https://github.com/PeithonKing/
+    displayText: "github:PeithonKing"
+  website:
+    url: https://peithonking.github.io/portfolio-page/
+    displayText: peithonking.github.io/portfolio-page/
+
+position: null
+
+tagline: Machine learning scientist with a background in physics and computer science from NISER. I build efficient AI systems across deep learning, algorithms, and robotics. Passionate about solving complex problems—with a strong focus on automation, optimization, and promoting the noble art of personal laziness through smarter systems.
+
+objective: 
+
+education:
+  - place:
+      name: National Institute of Science Education and Research (NISER)
+      link: "https://www.niser.ac.in"
+    degree: "Integrated MSc."
+    from: "2020"
+    to: "2025"
+    # location: Bhubaneswar, India
+    marks: 7.6 CGPA
+    points:
+      - Physics major
+      - Computer Science minor
+  # - place:
+  #     name: Technical College
+  #     link: ""
+  #   degree: Diploma
+  #   major: IT Specialist
+  #   track: IT Specialist
+  #   from: "2012"
+  #   to: "2015"
+  #   location: City, Country
+
+# technical_expertise:
+#   - name: Kotlin
+#     level: 4
+#   - name: Angular
+#     level: 5
+#   - name: Ruby on Rails
+#     level: 5
+#   - name: Flutter
+#     level: 4
+#   - name: Go
+#     level: 4
+#   - name: Subversion
+#     level: 5
+
+skills:
+  - Machine Learning
+  - Deep Learning
+  - Git
+  - Large Language Models (LLMs)
+  - Python
+  - Natural Language Processing (NLP)
+  - PyTorch
+  - Computer Vision
+  # - Applied AI
+  - Transformers
+  # - Eﬃcient Neural Networks
+  - Hugging Face
+  # - Information Retrieval
+  # - Quantum Computing
+  # - Model Optimization
+  # - Docker
+  # - JavaScript
+  # - HTML/CSS
+  # - Arduino
+
+
+  # - Java
+  # - React
+  # - Node.js
+  # - Express
+  # - MongoDB
+  # - AWS
+  # - Git
+  # - SQL
+  # - Material UI
+  # - Tailwind CSS
+
+# methodology:
+#   - Lean
+#   - Kanban
+#   - Design Thinking
+#   - Test-Driven Development
+#   - Pair Programming
+
+tools:
+  - Git/GitHub
+  - VS Code
+  - Linux
+
+achievements:
+  - name: 1st Place in ML4SCI Hackathon
+    description: Built ensemble (5 neural nets + XGBoost) hitting ROC AUC 0.88 on classifying 11M+ samples. Showcased advanced ML, feature engineering, and large-scale data wrangling in a Brown/CERN-backed international competition.
