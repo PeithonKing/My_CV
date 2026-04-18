@@ -11,7 +11,7 @@
 }
 
 #let findMe(services) = {
-  set text(8pt)
+  set text(7pt)
   let icon = icon.with(shift: 2.5pt)
 
   services.map(service => {

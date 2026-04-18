@@ -6,17 +6,15 @@ contacts:
   location: India
   linkedin:
     url: https://www.linkedin.com/in/PeithonKing/
-    displayText: linkedin:PeithonKing
+    displayText: linkedin.com/in/PeithonKing
   github:
     url: https://github.com/PeithonKing/
-    displayText: "github:PeithonKing"
+    displayText: github.com/PeithonKing
   website:
     url: https://peithonking.github.io/portfolio-page/
     displayText: peithonking.github.io/portfolio-page/
 
 position: null
-
-tagline: Machine learning scientist with a background in physics and computer science from NISER. I build efficient AI systems across deep learning, algorithms, and robotics. Passionate about solving complex problems—with a strong focus on automation, optimization, and promoting the noble art of personal laziness through smarter systems.
 
 objective: 
 
@@ -89,18 +87,29 @@ skills:
   # - Material UI
   # - Tailwind CSS
 
-# methodology:
-#   - Lean
-#   - Kanban
-#   - Design Thinking
-#   - Test-Driven Development
-#   - Pair Programming
+skillsv2:
+  Core AI & Research: 
+    - Machine Learning
+    - Deep Learning
+    - Natural Language Processing (NLP)
+    - Computer Vision
+  Models & Frameworks:
+    - PyTorch
+    - Transformers
+    - Large Language Models (LLMs)
+    - Hugging Face
+  Languages & Tools:
+    - Python
+    - Git
+    - Linux
+
 
 tools:
   - Git/GitHub
-  - VS Code
+  - Pytorch
+  - Docker
   - Linux
 
 achievements:
   - name: 1st Place in ML4SCI Hackathon
-    description: Built ensemble (5 neural nets + XGBoost) hitting ROC AUC 0.88 on classifying 11M+ samples. Showcased advanced ML, feature engineering, and large-scale data wrangling in a Brown/CERN-backed international competition.
+    description: Built ensemble (5 neural nets + XGBoost) hitting ROC AUC 0.88 on classifying 11M+ samples. Showcased advanced ML, feature engineering in a Brown/CERN-backed international competition.
