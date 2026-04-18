@@ -11,18 +11,13 @@
     (name: "globe", link: configuration.contacts.website.url, display: configuration.contacts.website.displayText),
     (name: "location", link: "https://maps.app.goo.gl/p16RDniPMHJk5hg26", display: configuration.contacts.address),
   ),
-  tagline: "Machine learning researcher with a background in physics and computer science from NISER. I build efficient AI systems across deep learning, algorithms, and robotics. Passionate about solving complex problems—with a strong focus on automation, optimization, and promoting the noble art of personal laziness through smarter systems.",
-  [
-
-    #include "projects_industry.typ"
-
-  ],
+  tagline: "Machine learning researcher with a background in physics and computer science from NISER. I build efficient AI systems across deep learning, algorithms, and robotics. Passionate about solving complex problems, with a strong focus on automation, optimization, and building smarter systems.",
+  [#include "projects.typ"],
   [
 
     == OBJECTIVE
 
     Solve real-world problems using ML and smart algorithms in organisation that values innovation and creativity.
-
 
     == PUBLICATIONS
     #bibliography("pub.bib", full: true, title: none, style: "american-physics-society")
@@ -52,20 +47,27 @@
       ]
     ]
 
+    // #if "skills" in configuration [
+    //   == SKILLS
+    //   #for skill in configuration.skills [
+    //     #skill,
+    //   ]
+    // ]
+
     #if "skills" in configuration [
       == SKILLS
-      #for skill in configuration.skills [
-        #skill,
+      #for (category, list) in configuration.skillsv2 [
+        *#category:* #list.join(", ") \
       ]
     ]
+    
+    // #if "tools" in configuration [
+    //   == TOOLS
 
-    #if "tools" in configuration [
-      == TOOLS
-
-      #for tool in configuration.tools [
-        • #tool
-      ]
-    ]
+    //   #for tool in configuration.tools [
+    //     • #tool
+    //   ]
+    // ]
 
   ],
 )

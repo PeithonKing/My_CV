@@ -8,20 +8,21 @@
 - Collaborated with *MSR India scientists* to improve *quaternion transformers* and published in international peer reviewed journals.
 - Achieved #highlight(fill: yellow.lighten(80%))[*2–4 times weight reduction*] while maintaining performance, proving extreme efficiency for resource-constrained hardware.
 
-=== High-Performance ML & Optimization (MSc Thesis)
+=== MoirePy: Python Moire Lattice Simulation Library - #styled-link("https://pypi.org/project/MoirePy/")[PyPI], #styled-link("https://github.com/jabed-umar/MoirePy/")[GitHub]
 
-Used ML expreience in physics to reduce time complexity from *$O(n^3)$ to $O(n)$* to estimate lattice energies with #highlight(fill: yellow.lighten(80%))[*< 3% error in worst case* (stable)], bypassing expensive unstable many-body simulations.
+- Building and maintaining #highlight(fill: yellow.lighten(80%))[`MoirePy`], a FOSS Python library with a #highlight(fill: yellow.lighten(80%))[`Rust`] backend for efficient and fast moire superlattice simulation.
+- Managed the full engineering lifecycle: designed all code, implemented #highlight(fill: yellow.lighten(80%))[*CI/CD pipelines*], packaging and documentation.
 
-=== Quantum Computation & Cryptography Internship
+=== ML4SCI Hackathon (Higgs Challenge)
 
-- Implemented Quantum Key Distribution (QKD) protocols (*BB84, E91*) using *Qiskit* and *Flask*.
-- Simulated network resilience against eavesdropping and explored *Quantum Robotics* theory for autonomous systems.
+- Came first in ML4SCI competition using an ensemble model (*5 neural nets + XGBoost*) on an 11M+ sample dataset.
+- Achieved ROC AUC of *0.88* on test set for Higgs boson classification #styled-link("https://github.com/PeithonKing/ML_comp")[(GitHub)].
 
-=== Software Engineering & Open Source Development
+=== Software Engineering & Open Source Leadership
 
-- *MoirePy:* Authored a FOSS Python library for simulating bilayer moiré lattices, now published on *PyPI*.
-- Managed the full engineering lifecycle: designed all code, implemented #highlight(fill: yellow.lighten(80%))[*CI/CD pipelines*], and wrote documentation.
 - *NISER Software Development Group Head:* As Head of the SDG NISER, oversaw multiple production rollouts including a *Django-based Lost & Found* and a *static performant timetable generator*.
+- Organized weekly technical talks and coding competitions to promote knowledge sharing and community engagement.
+- *OpenRiyaaz:* Built a #highlight(fill: yellow.lighten(80%))[Progressive Web App (PWA)] for vocal practice with tabla support using vanilla JavaScript; implemented persistent settings, media controls, and installable offline-first behavior.
 
 === Hands-on Engineering & Robotics
 
@@ -33,9 +34,3 @@ Used ML expreience in physics to reduce time complexity from *$O(n^3)$ to $O(n)$
 
 - Maintain a personal self-hosted *Raspberry Pi server* using *Docker* to run Nextcloud, Immich, PiHole, Glance and many more.
 - Optimized personal workflows by deploying #highlight(fill: yellow.lighten(80%))[*local LLMs via Ollama*] and used for automated LinkedIn job shortlisting and applications.
-
-// === Information Retrieval & NLP Internship (IISER Kolkata)
-
-// - Engineered an ML-based information retrieval pipeline including data cleaning, tokenization, and ranking.
-// - Improved the #highlight(fill: yellow.lighten(80%))[*AILA dataset MAP score from 14% to 21%*], significantly exceeding previous benchmarks.
-// - Optimized document sorting and query relevance algorithms for legal-domain NLP tasks.
